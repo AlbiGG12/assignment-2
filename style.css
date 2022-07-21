@@ -208,19 +208,3 @@ hr{
 .touch{
     margin: -8px;
 }
-@media only screen and (max-width:688px) {
-    .background{
-        display: block;
-        width: 100%;
-        flex-direction: column;
-    }
-    .size{
-        width: 355px;
-        font-size: 2em;
-        text-align: center;
-    }
-    main, .footer{
-        display: none;
-    }
-    
-}
