@@ -1,0 +1,226 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.background{
+    background-color: #161616;
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    border-radius: 30px;
+    margin-top: 50px;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 70px;
+    
+}
+.intro-heading{
+    width: 521px;
+    height: 424px;
+}
+.player{
+    margin-top: 0px;
+    margin-right: -150px;
+    width: 581px;
+    height: 613px;
+}
+.size{
+    color: #ffffff;
+    font-size: 70px;
+    width: 531px;
+    height: 240px;
+}
+.para{
+    margin-top: 80px;
+    color: #ffffff;
+    font-size: 16px;
+    width: 506px;
+    height: 78px;
+}
+.watch{
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    background: tomato;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+.icons{
+    margin-left: 15px;
+    display: flex;
+    gap: 10px;
+}
+.info{
+    width: 272px;
+    height: 54px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.transfer{
+    margin-left: 15px;
+}
+.match-1{
+    width: 312px;
+    height: 362px;
+    border: 1px solid lightslategrey;
+    border-radius: 15px;
+}
+.options{
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+}
+.upcoming button, .group button, .blog button{
+    padding: 17px 39px;
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 254px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    
+    color: #161616;
+}
+.blog button{
+    background-color: red;
+    color: #ffffff;
+}
+.sideways{
+    margin-top: 130px;
+    display: flex;
+    gap: 20px;
+}
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.transfer button{
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.dh h1{
+    margin-top: 100px;
+    color: lightgray;
+    font-size: 30px;
+    text-align: center;
+}
+.policies, .socials{
+    color: gray;
+    
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.policies{
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.footer{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 100px;
+    padding-bottom: 200px;
+    background-color: #161616;
+}
+.socials{
+    margin-bottom: -100px;
+}
+.socials button{
+    cursor: pointer;
+    background-color: #161616;
+    color: lightgray;
+    border: none;
+    font-size: 20px;
+}
+hr{
+    margin-top: 100px;
+    margin-bottom: -200px;
+    margin-left: 50px;
+    margin-right:50px;
+    color: lightgray;
+}
+.url{
+    text-decoration: none;
+}
+.nounderline{
+    color: white;
+    text-decoration: none;
+}
+.options2{
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    margin-left: 100px
+
+}
+.blog button, .group button, .unselected button{
+    padding: 17px 39px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 254px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    
+    color: #161616;
+}
+.blog button{
+    background-color: red;
+    color: #ffffff;
+}
+.nounderline1{
+    text-decoration: none;
+}
+.teams{
+    display: flex;
+}
+.fixings{
+    margin-top: 15px;
+    width: 210px;
+    height: 170px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.versus h3, .date{
+    text-align: center;
+
+}
+.matchings{
+    display: flex;
+}
+.gridfixing{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.touch{
+    margin: -8px;
+}
+@media only screen and (max-width:688px) {
+    .background{
+        display: block;
+        width: 100%;
+        flex-direction: column;
+    }
+    .size{
+        width: 355px;
+        font-size: 2em;
+        text-align: center;
+    }
+    main, .footer{
+        display: none;
+    }
+    
+}
